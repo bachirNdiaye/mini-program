@@ -1,0 +1,6 @@
+<view class="details-layout">
+  <slot name="header" />
+  <slot name="bottom-sheet" />
+
+  
+</view>

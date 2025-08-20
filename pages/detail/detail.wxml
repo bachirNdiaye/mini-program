@@ -1,0 +1,10 @@
+<view class="d-flex flex-column w-100" style="height: 100vh;">
+    <details-layout>
+        <view slot="header">
+            <details-header />
+        </view>
+        <view slot="bottom-sheet">
+            <bottom-sheet />
+        </view>
+    </details-layout>
+</view>
