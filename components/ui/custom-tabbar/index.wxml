@@ -1,0 +1,12 @@
+<view class="custom-tabbar">
+  <view 
+    wx:for="{{menu}}" 
+    wx:key="index"
+    class="custom-tabbar-item {{selected === index ? 'active' : ''}}"
+    data-index="{{index}}"
+    bindtap="switchTab"
+  >
+    <image src="{{item.icon}}" class="custom-tabbar-item-icon" />
+    <text wx:if="{{selected === index}}">{{item.text}}</text>
+  </view>
+</view>
