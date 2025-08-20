@@ -1,0 +1,6 @@
+<view>
+  <slot name="action-buttons"></slot>
+  <slot name="header"></slot>
+  <slot name="filter"></slot>
+  <slot name="list"></slot>
+</view>
