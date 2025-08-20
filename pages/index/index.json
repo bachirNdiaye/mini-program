@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "article-card": "/components/article-card/article-card"
+    "article-card": "/components/article-card/article-card",
+    "filter": "/components/filter/index"
   }
 }
