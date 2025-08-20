@@ -1,5 +1,7 @@
+@import '/app.wxss';
+
 .header {
-  position: absolute; /* pour flotter au-dessus du contenu */
+  position: fixed; /* pour flotter au-dessus du contenu */
   top: 0;
   left: 0;
   right: 0;
