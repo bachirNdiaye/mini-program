@@ -1,24 +1,33 @@
 Component({
-  data: {
-    // Swiper Breaking News
-    news: [
+      data: {
+    items: [
       {
         id: 1,
-        title: "Alexander wears modified helmet in road races",
-        category: "Sports",
-        image: "https://source.unsplash.com/600x400/?cycling"
+        image: '/assets/1.jpg',
+        category: 'Sports',
+        source: 'CNN Indonesia',
+        time: '6 hours ago',
+        title: 'Alexander wears modified helmet in road races'
       },
       {
         id: 2,
-        title: "What Training Do Volleyball Players Need?",
-        category: "Sports",
-        image: "https://source.unsplash.com/600x400/?volleyball"
+        image: '/assets/2.jpg',
+        category: 'Tech',
+        source: 'TechCrunch',
+        time: '2 hours ago',
+        title: 'AI transforms the media industry'
       },
       {
         id: 3,
-        title: "Secondary school places: When do parents find out?",
-        category: "Education",
-        image: "https://source.unsplash.com/600x400/?school"
+        image: '/assets/2.jpg',
+        category: 'Tech',
+        source: 'TechCrunch',
+        time: '2 hours ago',
+        title: 'AI transforms the media industry'
       }
-    ] 
-} } )
+    ]
+  },
+  properties: {
+     
+  }
+});
