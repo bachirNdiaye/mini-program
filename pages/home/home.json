@@ -3,5 +3,6 @@
   "usingComponents": {
     "custom-tabbar": "/components/ui/custom-tabbar/index",
     "bottom-sheet": "/components/ui/bottom-sheet/index"
+    "article-card": "/components/article-card/article-card"
   }
 }

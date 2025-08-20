@@ -7,5 +7,5 @@ Page({
    * @returns {void}
    */
   onLoad() {
-  },
+  }, 
 });

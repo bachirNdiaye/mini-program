@@ -1,0 +1,3 @@
+<view class="badge-container" bindtap="handleClick">
+  <text class="badge-text">{{name}}</text>
+</view>

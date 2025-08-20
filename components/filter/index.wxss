@@ -1,0 +1,42 @@
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  padding: 6px;
+  margin: 10px;
+}
+
+
+.search {
+  flex: 3; /* prend tout l'espace à gauche */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+button.filter-btn {
+  all: unset;        /* supprime les styles par défaut du bouton */
+  width: 60rpx;
+  height: 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: red;
+  border-radius: 50%;
+  margin-left: 10rpx;
+}

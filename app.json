@@ -2,9 +2,9 @@
   "pages": [
     
     "pages/home/home",
+    "pages/index/index",
     "pages/discover/discover",
-    "pages/detail/detail",
-    "pages/index/index"
+    "pages/detail/detail"
   ],
   "style": "v2",
   "window": {
