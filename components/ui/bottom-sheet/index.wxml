@@ -1,0 +1,15 @@
+<view class="scrollable-container">
+  <view class="scrollable-content">
+    <!-- Bloc de texte unique -->
+    <view class="text-block" bindtap="onTextTap">
+      <view class="text-block-header">
+        <image src="/assets/images/cnn-logo.png" class="header-logo" />
+        <text class="text-block-title">{{content.title}}</text>
+        <image src="/assets/images/badge.png" class="header-badge" />
+      </view>
+      <view class="text-block-content">
+        <text class="text-content">{{content.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>

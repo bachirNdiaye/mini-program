@@ -1,0 +1,11 @@
+<view class="header-container" style="background-image: url('/assets/images/header-bg.jpg');">
+  <view class="header-category">
+    <text>Sports</text>
+  </view>
+  <view class="header-title">
+    <text>Alexander wear modified helmet in road races</text>
+    <view class="header-tag">
+      <text>Trending • 6hours ago</text>
+    </view>
+  </view>
+</view>

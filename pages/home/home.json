@@ -1,3 +1,7 @@
 {
-  "component": true
+  "component": true,
+  "usingComponents": {
+    "custom-tabbar": "/components/ui/custom-tabbar/index",
+    "bottom-sheet": "/components/ui/bottom-sheet/index"
+  }
 }
