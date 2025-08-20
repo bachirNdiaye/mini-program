@@ -7,7 +7,7 @@
 }
 
 .badge-container.active {
-  background-color: #007aff; /* bleu */
+  background-color: #007aff;  
 }
 
 .badge-text {
