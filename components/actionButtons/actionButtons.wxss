@@ -1,0 +1,34 @@
+.header {
+  position: absolute; /* pour flotter au-dessus du contenu */
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 12px;
+  z-index: 1000;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.9); /* rond blanc semi-transparent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
