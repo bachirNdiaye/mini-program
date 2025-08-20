@@ -1,0 +1,45 @@
+<discover-layout>
+  <action-buttons slot="action-buttons" type="discover" bind:back="onBackClick" />
+
+  <view slot="header" class="header-title">
+    <text class="title">Discover</text> 
+    <text class="subtitle">New from all around the world</text> 
+  </view>
+
+    <!-- Slot FILTRE -->
+  <filter slot="filter" bind:search="onSearch" bind:filter="onFilterClick" /> 
+
+    <!-- Slot PILLS -->
+  <scroll-view slot="pills" scroll-x="true" class="badge-list">
+    <block wx:for="{{categories}}" wx:key="*this">
+      <badge 
+        name="{{item}}" 
+        active="{{activeCategory === item}}" 
+        bind:click="onBadgeClick" 
+      />
+    </block>
+  </scroll-view>
+
+ 
+
+
+  <!-- Slot liste -->
+  <view slot="list" class="articles">
+    <article-card
+      image="../../assets/images/image1.png"
+      category="Sports"
+      title="What Training Do Volleyball Players Need?"
+      avatar="../../assets/images/avatar.png"
+      author="McKindney"
+      date="Feb 27, 2023"
+    />
+    <article-card
+      image="../../assets/images/image2.png"
+      category="Education"
+      title="Top 10 Tips for Online Learning"
+      avatar="../../assets/images/avatar.png"
+      author="Jane Doe"
+      date="Mar 5, 2023"
+    />
+  </view>
+</discover-layout>
