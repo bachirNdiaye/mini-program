@@ -1,2 +1,4 @@
-<view>
+<view class="custom-title-container">
+  <text class="custom-title-text">{{title}}</text>
+  <button class="custom-title-button" bindtap="handleClick">View All</button>
 </view>
