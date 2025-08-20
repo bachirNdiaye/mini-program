@@ -1,3 +1,9 @@
 {
-  "component": true
+  "component": true,
+  "usingComponents": {
+    "details-layout": "/components/details-layout/index",
+    "bottom-sheet": "/components/ui/bottom-sheet/index",
+    "details-header": "/components/details-header/index"
+  }
+  
 }

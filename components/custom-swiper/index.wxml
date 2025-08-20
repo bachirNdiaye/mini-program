@@ -1,0 +1,29 @@
+<swiper
+  class="slider"
+  autoplay="true"
+  circular="true"
+  indicator-dots="true"
+  indicator-color="#ccc"
+  indicator-active-color="#007aff"
+  previous-margin="40rpx"
+  next-margin="40rpx"
+  interval="4000"
+  duration="500">
+  <block wx:for="{{items}}" wx:key="id">
+    <swiper-item>
+      <view class="slide">
+        <image class="bg" src="{{item.image}}" mode="aspectFill" />
+        <view class="category">{{item.category}}</view>
+        <view class="overlay">
+          <view class="info">
+            <text class="source">{{item.source}}</text>
+            <image class="verified" src="/assets/3.png" />
+            <text class="dot"></text>
+            <text class="time">{{item.time}}</text>
+          </view>
+          <text class="title">{{item.title}}</text>
+        </view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
