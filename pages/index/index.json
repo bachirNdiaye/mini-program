@@ -1,4 +1,5 @@
 {
   "usingComponents": {
+    "article-card": "/components/article-card/article-card"
   }
 }

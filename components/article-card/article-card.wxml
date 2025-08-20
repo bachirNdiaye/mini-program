@@ -1,0 +1,17 @@
+<view class="card">
+  <!-- image -->
+  <image src="{{image}}" class="card-img"></image>
+
+  <!-- contenu -->
+  <view class="card-body">
+    <text class="category">{{category}}</text>
+    <text class="title">{{title}}</text>
+
+    <view class="meta">
+      <image src="{{avatar}}" class="avatar"></image>
+      <text class="author">{{author}}</text>
+      <text class="dot">•</text>
+      <text class="date">{{date}}</text>
+    </view>
+  </view>
+</view>
