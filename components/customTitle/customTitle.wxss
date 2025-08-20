@@ -1,0 +1,30 @@
+.custom-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+.custom-title-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  flex: 1;
+}
+
+.custom-title-button {
+  background: none;
+  border: none;
+  color: #0479E4;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  min-width: auto;
+  line-height: normal;
+}
+
+.custom-title-button::after {
+  border: none;
+}
