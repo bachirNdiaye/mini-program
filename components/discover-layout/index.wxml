@@ -1,6 +1,27 @@
-<view>
-  <slot name="action-buttons"></slot>
-  <slot name="header"></slot>
-  <slot name="filter"></slot>
-  <slot name="list"></slot>
+<view class="page">
+  <!-- AppBar -->
+  <view class="appbar">
+    <slot name="action-buttons"></slot>
+  </view>
+
+  <!-- Header -->
+  <view class="header">
+    <slot name="header"></slot>
+  </view>
+
+  <!-- Filtre -->
+  <view class="filter">
+    <slot name="filter"></slot>
+  </view>
+
+  <!-- Pills -->
+  <view class="pills">
+    <slot name="pills"></slot>
+  </view>
+
+  <!-- Liste -->
+  <view class="list">
+    <slot name="list"></slot>
+  </view>
 </view>
+``

@@ -1,3 +1,9 @@
 {
-  "component": true
+  "usingComponents": {
+    "discover-layout": "/components/discover-layout/index",
+    "action-buttons": "/components/actionButtons/actionButtons",
+    "filter": "/components/filter/index",
+    "article-card": "/components/article-card/article-card",
+     "badge": "/components/badge/index"
+  }
 }

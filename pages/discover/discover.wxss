@@ -1,0 +1,16 @@
+.header-title {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #929292;
+  margin-top: 4px;
+}
