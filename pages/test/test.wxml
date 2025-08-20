@@ -1,0 +1,38 @@
+<article-card
+  image="../../assets/images/image1.png"
+  category="Sports"
+  title="What Training Do Volleyball Players Need?"
+  avatar="../../assets/images/avatar.png"
+  author="McKindney"
+  date="Feb 27, 2023"
+/> 
+
+<filter bind:search="onSearch" bind:filter="onFilterClick" /> 
+
+<!-- <action-buttons type="home" bind:menu="onMenuClick" bind:search="onSearchClick" bind:notif="onNotifClick" /> -->
+
+
+<!-- <action-buttons type="discover" bind:back="onBackClick" /> -->
+
+
+<!-- <action-buttons type="detail" bind:back="onBackClick" bind:bookmark="onBookmarkClick" bind:options="onOptionsClick" /> -->
+
+<scroll-view scroll-x="true" class="badge-list">
+  <block wx:for="{{categories}}" wx:key="*this">
+    <badge 
+      name="{{item}}" 
+      active="{{activeCategory === item}}" 
+      bind:click="onBadgeClick" 
+    />
+  </block>
+</scroll-view>
+
+
+
+
+<badge 
+  name="test" 
+  active="{{true}}" 
+  bind:click="onBadgeClick" 
+/>
+

@@ -1,10 +1,10 @@
 Component({
   properties: {
-    name: String
+    name: String,
+    active: { type: Boolean, value: false }
   },
   methods: {
     handleClick() {
-      console.log('Handle Badge Click: ', this.data.name);
       this.triggerEvent('click', { name: this.data.name });
     }
   }
