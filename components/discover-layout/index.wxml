@@ -24,4 +24,4 @@
     <slot name="list"></slot>
   </view>
 </view>
-``
+
