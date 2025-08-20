@@ -22,7 +22,7 @@
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
-	"projectname": "TCMPP Boilerplate",
+	"projectname": "mini-program",
 	"scripts": {},
 	"permission": {
 		"scope.album": {
@@ -32,6 +32,7 @@
 			"desc": "Used to capture photos or videos"
 		}
 	},
+	"TCMPPappid": "1108100302",
 	"condition": {
 		"search": {
 			"current": -1,

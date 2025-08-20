@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/discover/discover",
+    "pages/detail/detail",
     "pages/index/index"
   ],
   "style": "v2",
