@@ -1,11 +1,12 @@
 {
   "component": true,
   "usingComponents": {
-    "custom-tabbar": "/components/ui/custom-tabbar/index",
-    "bottom-sheet": "/components/ui/bottom-sheet/index",
-    "article-card": "/components/article-card/article-card",
-    "swiper-card": "/components/custom-swiper/index",
+    "home-layout": "/components/homeLayout/homeLayout",
+    "action-buttons": "/components/actionButtons/actionButtons",
+    "custom-title": "/components/customTitle/customTitle",
+    "custom-swiper": "/components/custom-swiper/index",
+    "custom-tab-bar": "/components/ui/custom-tabbar/index",
     "article-list": "/components/article-list/article-list"
-    
+
   }
 }

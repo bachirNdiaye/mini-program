@@ -1,3 +1,6 @@
+.header {
+  margin-top: 2rem;
+}
 .shadow-overlay {
   position: fixed;
   bottom: 0;

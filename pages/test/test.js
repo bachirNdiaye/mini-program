@@ -1,9 +1,8 @@
 Page({
-   data: {
+  data: {
      categories: ["All", "Politic", "Sport", "Education", "Gaming"],
     activeCategory: "All"
   },
-
 
   /**
    * Page initialization hook
@@ -12,7 +11,8 @@ Page({
   onLoad() {
   },
 
-    onSearch(e) {
+
+  onSearch(e) {
     console.log("Texte recherché :", e.detail);
   },
   onFilterClick() {

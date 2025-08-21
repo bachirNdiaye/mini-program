@@ -1,9 +1,8 @@
 {
-  "pages": [
-    
+  "pages": [ 
     "pages/home/home",
-    "pages/index/index",
     "pages/discover/discover",
+    "pages/index/index",
     "pages/detail/detail"
   ],
   "style": "v2",
