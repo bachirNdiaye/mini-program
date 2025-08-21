@@ -2,7 +2,6 @@
 .scrollable-container {
   position: fixed;
   top: 50vh;
-  /* Commence au milieu de la page */
   left: 0;
   right: 0;
   bottom: 0;
@@ -10,21 +9,27 @@
   border-radius: 25px 25px 0 0;
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
   z-index: 9999;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  min-height: 50vh;
+  transition: position 0.3s ease, height 0.3s ease, min-height 0.3s ease;
+}
+
+/* Bottom-sheet en position absolue quand scrollé */
+.scrollable-container.scrolled {
+  position: absolute;
+  top: 0;
+  border-radius: 0;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 /* Contenu scrollable */
 .scrollable-content {
-  height: 100%;
   padding: 20px;
-  -webkit-overflow-scrolling: touch;
+
   /* Pour un scroll fluide sur iOS */
 }
-
-/* Indicateur de scroll (barre de défilement personnalisée) */
-.scrollable-content::-webkit-scrollbar {
-  width: 6px;
-}
-
 
 /* Bloc de texte unique */
 .text-block-header {
@@ -89,7 +94,7 @@
 }
 
 /* Responsive design */
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .scrollable-content {
     padding: 16px;
   }

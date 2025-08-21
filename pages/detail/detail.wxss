@@ -13,6 +13,22 @@
   align-items: flex-end;
   justify-content: flex-end;
   z-index: 1;
+  transition: height 0.3s ease, position 0.3s ease;
+  overflow: hidden;
+}
+
+/* Header en position fixed quand scrollé */
+.header-container.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9998;
+}
+
+/* Header expandable */
+.header-container.expanded {
+  height: 80vh;
 }
 
 /* Overlay pour améliorer la lisibilité du texte */
@@ -23,7 +39,6 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /*background: rgba(255, 255, 255, 0.9);*/
   border-radius: 12px 12px 0 0;
   z-index: 1;
 }
@@ -53,6 +68,11 @@
   z-index: 2;
   padding: 0 16px;
   margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.header-container.expanded .header-title {
+  transform: translateY(-20px);
 }
 
 .header-title text {
@@ -60,6 +80,7 @@
   font-weight: 600;
   color: white;
 }
+
 .header-tag text {
   font-size: 12px;
   font-weight: 300;
@@ -77,7 +98,13 @@
   align-self: start;
   text-align: center;
   min-width: fit-content;
+  transition: transform 0.3s ease;
 }
+
+.header-container.expanded .header-category {
+  transform: translateY(-20px);
+}
+
 .header-category text {
   font-size: 14px;
   color: white;
