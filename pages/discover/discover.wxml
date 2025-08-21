@@ -2,11 +2,9 @@
   <view
     slot="action-buttons"
     class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view"
-    type="discover" 
-    bind:back="onBackClick"
     statusBarHeight="{{statusBarHeight}}"
   >
-    <action-buttons />
+    <action-buttons type="discover" bind:back="onBackClick" />
   </view>
 
   <text class="subtitle">\n</text>
