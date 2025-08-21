@@ -1,6 +1,4 @@
 {
-
-  "component": true,
   "usingComponents": {
     "home-layout": "/components/homeLayout/homeLayout",
     "action-buttons": "/components/actionButtons/actionButtons",
@@ -8,5 +6,6 @@
     "custom-swiper": "/components/custom-swiper/index",
     "custom-tab-bar": "/components/ui/custom-tabbar/index",
      "article-list": "/components/article-list/article-list"
-  }
+  },
+  "navigationStyle": "custom"
 }
