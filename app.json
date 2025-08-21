@@ -1,10 +1,10 @@
 {
   "pages": [
-    
+    "pages/detail/detail",
     "pages/home/home",
-    "pages/index/index",
     "pages/discover/discover",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/index/index"
   ],
   "style": "v2",
   "window": {

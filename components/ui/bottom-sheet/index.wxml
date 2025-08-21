@@ -1,4 +1,4 @@
-<view class="scrollable-container">
+<view class="scrollable-container" >
   <view class="scrollable-content">
     <!-- Bloc de texte unique -->
     <view class="text-block" bindtap="onTextTap">
