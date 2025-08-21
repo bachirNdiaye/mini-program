@@ -16,7 +16,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.9); /* rond blanc semi-transparent */
+ background-color: rgba(128, 128, 128, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,7 +36,7 @@
   backdrop-filter: blur(8px); /* flou derrière */
   -webkit-backdrop-filter: blur(8px); /* compatibilité iOS */
   border: 1px solid rgba(255, 255, 255, 0.3); /* bordure fine */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   box-shadow: 0 0px 0px rgba(0,0,0,0);
 }
 .icon {
   width: 20px;
