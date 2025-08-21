@@ -115,3 +115,16 @@
 .action-buttons-view {
   z-index: 1000;
 }
+.shadow-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150rpx;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  z-index: 10000;
+  pointer-events: none;
+}
+.scrollable-container {
+  position: relative;
+}
