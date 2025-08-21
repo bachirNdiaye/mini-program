@@ -1,7 +1,7 @@
 /* Conteneur principal qui commence au milieu de la page */
 .scrollable-container {
-  position: fixed;
-  top: 50vh;
+  position: relative;
+  top: -25px;
   left: 0;
   right: 0;
   bottom: 0;
