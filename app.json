@@ -12,6 +12,7 @@
     "navigationBarTitleText": "TCMPP Boiler Plate",
     "navigationBarTextStyle": "black"
   },
+  "navigationStyle": "custom",
   "permission": {
     "scope.camera": {
       "desc": "Need camera access to take photos or videos"
