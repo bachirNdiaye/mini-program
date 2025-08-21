@@ -1,5 +1,7 @@
+@import '/app.wxss';
+
 .header {
-  position: absolute; 
+  position: fixed; /* pour flotter au-dessus du contenu */
   top: 0;
   left: 0;
   right: 0;
@@ -20,7 +22,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.9); 
+  background-color: rgba(255, 255, 255, 0.9); /* rond blanc semi-transparent */
   display: flex;
   justify-content: center;
   align-items: center;
