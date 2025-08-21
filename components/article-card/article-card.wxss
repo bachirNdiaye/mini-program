@@ -3,7 +3,7 @@
   flex-direction: row;
   border-radius: 12px;
   background-color: #fff;
-  padding: 8px;
+  padding: 8px 10px;
 }
 
 .card-img {
