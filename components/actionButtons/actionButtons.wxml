@@ -4,17 +4,17 @@
     <view wx:if="{{showBack}}" class="circle-translucent" bindtap="onBack">
       <image src="/assets/images/menu/backarrow.png" class="icon" style="color:white"></image>
     </view>
-    <view wx:if="{{showMenu}}" class="circle" bindtap="onMenu">
+    <view wx:if="{{showMenu}}" class="circle-translucent" bindtap="onMenu">
       <image src="/assets/images/menu/menu.png" class="icon"></image>
     </view>
   </view>
 
   <!-- Droite -->
   <view class="right">
-    <view wx:if="{{showSearch}}" class="circle" bindtap="onSearch">
+    <view wx:if="{{showSearch}}" class="circle-translucent" bindtap="onSearch">
       <image src="/assets/icons/search.png" class="icon"></image>
     </view>
-    <view wx:if="{{showNotif}}" class="circle" bindtap="onNotif">
+    <view wx:if="{{showNotif}}" class="circle-translucent" bindtap="onNotif">
       <image src="/assets/images/menu/bell.png" class="icon"></image>
     </view>
     <view wx:if="{{showBookmark}}" class="circle-translucent" bindtap="onBookmark">
