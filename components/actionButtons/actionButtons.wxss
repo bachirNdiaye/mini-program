@@ -1,5 +1,5 @@
 .header {
-  position: absolute; /* pour flotter au-dessus du contenu */
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -20,7 +20,7 @@
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.9); /* rond blanc semi-transparent */
+  background-color: rgba(255, 255, 255, 0.9); 
   display: flex;
   justify-content: center;
   align-items: center;
