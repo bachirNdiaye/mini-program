@@ -1,5 +1,6 @@
 Component({
       data: {
+            current: 0,
     items: [
       {
         id: 1,
@@ -29,5 +30,13 @@ Component({
   },
   properties: {
      
+  },
+  methods: {
+    onSwiperChange(e) {
+      this.setData({
+        current: e.detail.current
+      });
+    }
+    
   }
 });

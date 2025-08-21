@@ -1,6 +1,7 @@
 Page({
     data: {
     scrollTop: 0,
+     statusBarHeight:0,
     articles: [
       {
         image: '/assets/1.jpg',
@@ -47,6 +48,10 @@ Page({
    * @returns {void}
    */
   onLoad() {
+       const systemInfo = wx.getSystemInfoSync();
+  this.setData({
+    statusBarHeight: systemInfo.statusBarHeight // tu peux ajouter une petite marge en plus
+  });
   },
   goToDiscover() {
     console.log('Navigating to discover');
