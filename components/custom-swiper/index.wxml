@@ -2,16 +2,16 @@
   class="slider"
   autoplay="true"
   circular="true"
-  indicator-dots="true"
-  indicator-color="#ccc"
-  indicator-active-color="#007aff"
-  previous-margin="40rpx"
-  next-margin="40rpx"
+  previous-margin="50rpx"
+  next-margin="50rpx"
   interval="4000"
-  duration="500">
+  duration="500"
+  current="{{current}}"
+  bindchange="onSwiperChange"
+>
   <block wx:for="{{items}}" wx:key="id">
     <swiper-item>
-      <view class="slide">
+      <view class="slide {{index === current ? 'active' : 'inactive'}}">
         <image class="bg" src="{{item.image}}" mode="aspectFill" />
         <view class="category">{{item.category}}</view>
         <view class="overlay">
@@ -23,7 +23,20 @@
           </view>
           <text class="title">{{item.title}}</text>
         </view>
+          
       </view>
     </swiper-item>
+   
   </block>
+ 
 </swiper>
+<view class="custom-dots">
+  <block wx:for="{{items}}" wx:key="index">
+    <view class="dot {{current === index ? 'active' : ''}}"></view>
+  </block>
+</view>
+
+<view class="bottom-shadow"></view>
+
+
+
