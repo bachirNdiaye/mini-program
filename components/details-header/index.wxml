@@ -3,7 +3,7 @@
     <text>Sports</text>
   </view>
   <view class="header-title">
-    <text>Alexander wear modified helmet in road races</text>
+    <text class="header-title-text">Alexander wear modified helmet in road races</text>
     <view class="header-tag">
       <text>Trending • 6hours ago</text>
     </view>

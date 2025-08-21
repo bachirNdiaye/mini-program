@@ -13,15 +13,17 @@
 }
 
 .circle {
-  width: 36px;
-  height: 36px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
- background-color: rgba(128, 128, 128, 0.2);
+ background-color: rgba(128, 128, 128, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  background-color: rgba(128, 128, 128, 0.1); /* translucide */
+  backdrop-filter: blur(8px); /* flou derrière */
+  -webkit-backdrop-filter: blur(8px); /* compatibilité iOS */
 }
 
 .circle-translucent { 
