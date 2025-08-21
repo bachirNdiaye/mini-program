@@ -6,5 +6,12 @@ Component({
     avatar: String,
     author: String,
     date: String
+  },
+  methods: {
+    onTap() {
+      wx.navigateTo({
+        url: '/pages/detail/detail',
+      });
+    }
   }
 })

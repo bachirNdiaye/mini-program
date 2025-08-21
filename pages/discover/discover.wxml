@@ -1,10 +1,14 @@
 <discover-layout>
-<action-buttons 
-  slot="action-buttons" 
-  type="discover" 
-  bind:back="onBackClick"
-  statusBarHeight="{{statusBarHeight}}" />
-  <text class="subtitle">\n</text> 
+  <view
+    slot="action-buttons"
+    class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view"
+    statusBarHeight="{{statusBarHeight}}"
+  >
+    <action-buttons type="discover" bind:back="onBackClick" />
+  </view>
+
+  <text class="subtitle">\n</text>
+
   <view slot="header" class="header-title">
     <text class="title">Discover</text> 
     <text class="subtitle">New from all around the world</text> 
@@ -30,21 +34,6 @@
 
   <!-- Slot liste -->
   <view slot="list" class="articles">
-    <article-card
-      image="../../assets/images/image1.png"
-      category="Sports"
-      title="What Training Do Volleyball Players Need?"
-      avatar="../../assets/images/avatar.png"
-      author="McKindney"
-      date="Feb 27, 2023"
-    />
-    <article-card
-      image="../../assets/images/image2.png"
-      category="Education"
-      title="Top 10 Tips for Online Learning"
-      avatar="../../assets/images/avatar.png"
-      author="Jane Doe"
-      date="Mar 5, 2023"
-    />
+    <article-list articles="{{articles}}" scroll-top="{{scrollTop}}" />
   </view>
 </discover-layout>

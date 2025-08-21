@@ -11,7 +11,8 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  margin-bottom: 12px;
+  padding-bottom:25px;
+  padding-top:12px;
   padding-left: 16px;
   padding-right: 16px;
 }

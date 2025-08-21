@@ -11,6 +11,10 @@ Page({
     this.initHeaderScroll();
   },
 
+  onBackClick() {
+    wx.navigateBack();
+  },
+
   /**
    * Initialize header scroll functionality
    */

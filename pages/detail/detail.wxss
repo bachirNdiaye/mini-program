@@ -111,3 +111,7 @@
   display: block;
   text-align: center;
 }
+
+.action-buttons-view {
+  z-index: 1000;
+}

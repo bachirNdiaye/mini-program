@@ -1,6 +1,6 @@
 <view class="d-flex flex-column w-100" style="height: 100vh;">
   <home-layout>
-    <view slot="action-buttons">
+    <view slot="action-buttons" class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view">
       <action-buttons type="home"></action-buttons>
     </view>
     <view slot="header" class="header">
