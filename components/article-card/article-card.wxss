@@ -29,7 +29,7 @@
 }
 
 .title {
-  font-size: 32rpx;
+  font-size: 34rpx;
   font-weight: bold;
   margin: 6rpx 0;
   line-height: 1.8;
@@ -42,6 +42,10 @@
   margin-top: 6rpx;
   font-size: 22rpx;
   color: #777;
+}
+
+.author .dot .date {
+  font-weight: 200 !important;
 }
 
 .avatar {
