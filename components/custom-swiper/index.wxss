@@ -6,7 +6,7 @@
 }
 
 .slide {
- 
+
   margin: 0 auto;
   height: 100%;
   border-radius: 50rpx;
@@ -18,7 +18,7 @@
 }
 
 .slide.inactive {
-  transform: scale(0.9);  /* Plus petit */
+    transform: scale(0.9);  
   opacity: 1;
 }
 
@@ -26,7 +26,9 @@
   transform: scale(1);    /* Normal */
   opacity: 1;
 
- 
+ box-shadow: 0px 3px 6px 0 rgba(0, 0, 0, 0.3);
+ height: 97%;
+  z-index: 10;
 }
 
 .bg {
@@ -36,8 +38,7 @@
  
 }
 
-.category {
-    
+.category {  
   position: absolute;
   top: 20rpx;
   left: 20rpx;
@@ -52,7 +53,7 @@
 .overlay {
   position: absolute;
   bottom: 0;
-  padding: 30rpx;
+  padding: 50rpx;
   width: 100%;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
   color: white;
@@ -68,19 +69,11 @@
 }
 
 .title {
-    width: 70%;
   font-size: 30rpx;
   font-weight: bold;
 }
 
-.dot {
-  width: 10rpx;
-  height: 10rpx;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-right: 15rpx;
-  margin-left: 15rpx;
-}
+
 .verified {
   width: 30rpx;
   height: 30rpx;
@@ -92,17 +85,18 @@
 .bottom-shadow {
   position: absolute;
   border-radius: 50rpx;
-  top: 180rpx;
+  top: 360rpx;
   left: 60rpx;
   right: 60rpx;
   height: 420rpx;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.118), transparent);
-  z-index: 10;
-  pointer-events: none;
+  z-index: 40;
+  
+  
 }
 .custom-dots {
   position: relative;
-  margin-top: 20rpx;
+  margin-top: -35rpx;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,8 +112,8 @@
 }
 
 .dot.active {
-    border-radius: 25%;
-    width: 30rpx;
+    border-radius: 100px;
+    width: 40rpx;
   height: 12rpx;
   background-color: #007aff;
 }
