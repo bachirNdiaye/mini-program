@@ -34,3 +34,7 @@
   width: 20px;
   height: 20px;
 }
+
+.z-1000 {
+  z-index: 1000;
+}

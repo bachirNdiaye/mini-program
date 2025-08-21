@@ -1,4 +1,4 @@
-<view class="position-fixed d-flex justify-content-between top-0 left-0 right-0 w-100">
+<view class="d-flex justify-content-between top-0 left-0 right-0 w-100 z-1000">
   <!-- Gauche -->
   <view class="left">
     <view wx:if="{{showBack}}" class="circle" bindtap="onBack">

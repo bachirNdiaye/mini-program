@@ -14,3 +14,8 @@
   color: #929292;
   margin-top: 4px;
 }
+
+.action-buttons-view {
+  z-index: 1000;
+  padding-top: 100px;
+}

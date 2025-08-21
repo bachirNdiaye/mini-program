@@ -1,7 +1,7 @@
 Page({
     data: {
     scrollTop: 0,
-      articles: [
+    articles: [
       {
         image: '/assets/1.jpg',
         category: 'Tech',

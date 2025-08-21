@@ -1,5 +1,8 @@
 <view class="d-flex flex-column w-100" style="height: 100vh;" bindscroll="onScroll">
     <details-layout>
+        <view slot="action-buttons" class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view">
+            <action-buttons slot="action-buttons" type="detail" bind:back="onBackClick" />
+        </view>
         <view slot="header">
             <details-header />
         </view>

@@ -11,3 +11,7 @@
   z-index: 999;
   pointer-events: none;
 }
+
+.action-buttons-view {
+  z-index: 1000;
+}

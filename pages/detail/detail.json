@@ -3,7 +3,9 @@
   "usingComponents": {
     "details-layout": "/components/details-layout/index",
     "bottom-sheet": "/components/ui/bottom-sheet/index",
-    "details-header": "/components/details-header/index"
-  }
+    "details-header": "/components/details-header/index",
+    "action-buttons": "/components/actionButtons/actionButtons"
+  },
+  "navigationStyle": "custom"
   
 }
