@@ -1,0 +1,15 @@
+.article-list {
+  position: relative;
+  padding-bottom: 60rpx;
+
+}
+.shadow-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150rpx;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  z-index: 10;
+  pointer-events: none;
+}

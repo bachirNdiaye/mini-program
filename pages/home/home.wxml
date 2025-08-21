@@ -9,6 +9,7 @@
     </view>
     <view slot="list">
       <custom-title title="Recommandation" bind:viewAll="goToDiscover"></custom-title>
+      <article-list articles="{{articles}}" scroll-top="{{scrollTop}}" />
     </view>
     <view slot="tab-bar">
       <custom-tab-bar></custom-tab-bar>
