@@ -4,7 +4,7 @@
     <view wx:if="{{showBack && showBookmark}}" class="circle" bindtap="onBack">
       <image src="/assets/images/menu/backarrowB.png" class="icon" style="color:white"></image>
     </view>
-    <view wx:if="{{showBack}}" class="circle" bindtap="onBack">
+    <view wx:if="{{showBack && !showBookmark}}" class="circle" bindtap="onBack">
       <image src="/assets/images/menu/backarrow.png" class="icon" style="color:white"></image>
     </view>
     <view wx:if="{{showMenu}}" class="circle" bindtap="onMenu">
