@@ -1,3 +1,4 @@
+
 <view class="details-layout">
   <slot name="action-buttons" />
   <slot name="header" />
