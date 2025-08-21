@@ -1,6 +1,7 @@
 Component({
   properties: {
-    type: { type: String, value: 'home' } // "home" | "discover" | "detail"
+    type: { type: String, value: 'home' }, // "home" | "discover" | "detail"
+    statusBarHeight: { type: Number, value: 0 }
   },
   data: {
     showBack: false,
@@ -18,7 +19,7 @@ Component({
   methods: {
     updateConfig() {
       let config = {};
-      switch(this.properties.type) {
+      switch (this.properties.type) {
         case 'home':
           config = { showMenu: true, showSearch: true, showNotif: true };
           break;
