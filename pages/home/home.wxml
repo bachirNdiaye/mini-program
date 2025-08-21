@@ -1,3 +1,17 @@
 <view class="d-flex flex-column w-100" style="height: 100vh;">
-    <swiper-card  />
+  <home-layout>
+    <view slot="action-buttons">
+      <action-buttons type="home"></action-buttons>
+    </view>
+    <view slot="header" class="header">
+      <custom-title title="Breaking News"></custom-title>
+      <custom-swiper></custom-swiper>
+    </view>
+    <view slot="list">
+      <custom-title title="Recommandation" bind:viewAll="goToDiscover"></custom-title>
+    </view>
+    <view slot="tab-bar">
+      <custom-tab-bar></custom-tab-bar>
+    </view>
+  </home-layout>
 </view>

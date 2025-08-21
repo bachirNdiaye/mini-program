@@ -1,3 +1,11 @@
 {
-  "component": true
+
+  "component": true,
+  "usingComponents": {
+    "home-layout": "/components/homeLayout/homeLayout",
+    "action-buttons": "/components/actionButtons/actionButtons",
+    "custom-title": "/components/customTitle/customTitle",
+    "custom-swiper": "/components/custom-swiper/index",
+    "custom-tab-bar": "/components/ui/custom-tabbar/index"
+  }
 }

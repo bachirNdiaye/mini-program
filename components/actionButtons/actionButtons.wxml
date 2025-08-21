@@ -1,2 +1,27 @@
-<view>
+<view class="position-fixed d-flex justify-content-between top-0 left-0 right-0 w-100">
+  <!-- Gauche -->
+  <view class="left">
+    <view wx:if="{{showBack}}" class="circle" bindtap="onBack">
+      <image src="/assets/images/menu/back.png" class="icon"></image>
+    </view>
+    <view wx:if="{{showMenu}}" class="circle" bindtap="onMenu">
+      <image src="/assets/images/menu/menu.png" class="icon"></image>
+    </view>
+  </view>
+
+  <!-- Droite -->
+  <view class="right">
+    <view wx:if="{{showSearch}}" class="circle" bindtap="onSearch">
+      <image src="/assets/icons/search.png" class="icon"></image>
+    </view>
+    <view wx:if="{{showNotif}}" class="circle" bindtap="onNotif">
+      <image src="/assets/images/menu/bell.png" class="icon"></image>
+    </view>
+    <view wx:if="{{showBookmark}}" class="circle" bindtap="onBookmark">
+      <image src="/assets/images/menu/bookmark.png" class="icon"></image>
+    </view>
+    <view wx:if="{{showOptions}}" class="circle" bindtap="onOptions">
+      <image src="/assets/images/menu/option.png" class="icon"></image>
+    </view>
+  </view>
 </view>

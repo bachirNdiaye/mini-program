@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "article-card": "/components/article-card/article-card",
+    "filter": "/components/filter/index",
+      "action-buttons": "/components/actionButtons/actionButtons",
+       "badge": "/components/badge/index"
+  }
+}
