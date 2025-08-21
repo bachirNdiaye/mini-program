@@ -5,7 +5,7 @@
   <!-- contenu -->
   <view class="card-body">
     <text class="category">{{category}}</text>
-    <text class="title text-lg">{{title}}</text>
+    <text class="title">{{title}}</text>
 
     <view class="meta">
       <view class="meta">
