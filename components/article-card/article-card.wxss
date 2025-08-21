@@ -4,14 +4,13 @@
   border-radius: 12px;
   background-color: #fff;
   padding: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   margin: 10px 0;
 }
 
 .card-img {
   width: 220rpx;
   height: 220rpx;
-  border-radius: 20px;
+  border-radius: 12px;
   object-fit: contain;
 }
 
@@ -24,15 +23,16 @@
 }
 
 .category {
-  font-size: 28rpx;
-  color: rgba(128, 128, 128, 0.766);
+  font-size: 24rpx;
+  color: #a29e9e92;
+  font-weight: 600;
 }
 
 .title {
-  font-size: 34rpx;
-  font-weight: normal;
+  font-size: 32rpx;
+  font-weight: bold;
   margin: 6rpx 0;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 
 .meta {
@@ -47,23 +47,18 @@
 .avatar {
   width: 45rpx;
   height: 45rpx;
+  width: 45rpx;
+  height: 45rpx;
   border-radius: 50%;
   margin-right: 16rpx;
 }
 
 .dot {
-  margin: 0 6rpx;
-  font-size: 26rpx;
-  color: rgba(128, 128, 128, 0.766);
+  margin: 0 15rpx;
+  color: #a29e9e92;
 }
-
-.author {
-  margin: 0 6rpx;
-  font-size: 26rpx;
-  color: rgba(128, 128, 128, 0.766);
-}
-.date {
-  margin: 0 6rpx;
-  font-size: 26rpx;
-  color: rgba(128, 128, 128, 0.766);
+.text-sm {
+  font-size: 25rpx;
+  color: #a29e9e92;
+  font-weight: 600;
 }

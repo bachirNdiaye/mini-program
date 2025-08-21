@@ -8,10 +8,12 @@
     <text class="title">{{title}}</text>
 
     <view class="meta">
-      <image src="{{avatar}}" class="avatar"></image>
-      <text class="author">{{author}}</text>
-      <text class="dot">•</text>
-      <text class="date">{{date}}</text>
+      <view class="meta">
+        <image src="{{avatar}}" class="avatar"></image>
+        <text class="author text-sm">{{author}}</text>
+      </view>
+        <text class="dot">•</text>
+        <text class="date text-sm">{{date}}</text>
     </view>
   </view>
 </view>
