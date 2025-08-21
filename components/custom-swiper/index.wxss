@@ -1,17 +1,32 @@
 .slider {
   height: 420rpx;
   margin-bottom: 50rpx;
+  position: relative;
+  
 }
 
 .slide {
-  width: 95%;
+ 
   margin: 0 auto;
   height: 100%;
-  border-radius: 24rpx;
+  border-radius: 50rpx;
   overflow: hidden;
   position: relative;
   background: #f2f2f2;
+  transition: transform 0.3s ease, opacity 0.3s ease;
   
+}
+
+.slide.inactive {
+  transform: scale(0.9);  /* Plus petit */
+  opacity: 1;
+}
+
+.slide.active {
+  transform: scale(1);    /* Normal */
+  opacity: 1;
+
+ 
 }
 
 .bg {
@@ -73,4 +88,38 @@
   display: inline-block;
   
   margin-left: 15rpx;
+}
+.bottom-shadow {
+  position: absolute;
+  border-radius: 50rpx;
+  top: 180rpx;
+  left: 60rpx;
+  right: 60rpx;
+  height: 420rpx;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.118), transparent);
+  z-index: 10;
+  pointer-events: none;
+}
+.custom-dots {
+  position: relative;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 12rpx;
+  height: 12rpx;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 8rpx;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+    border-radius: 25%;
+    width: 30rpx;
+  height: 12rpx;
+  background-color: #007aff;
 }
