@@ -4,7 +4,7 @@
       <action-buttons type="home" statusBarHeight="{{statusBarHeight+40}}"></action-buttons>
     </view>
     <view slot="header" class="header">
-      <custom-title title="Breaking News"></custom-title>
+      <custom-title title="Breaking News" bind:viewAll="goToDiscover"></custom-title>
       <custom-swiper></custom-swiper>
     </view>
     <view slot="list">
