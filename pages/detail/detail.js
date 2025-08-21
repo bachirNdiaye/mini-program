@@ -1,6 +1,7 @@
 Page({
   data: {
-    isHeaderExpanded: false
+    isHeaderExpanded: false,
+     statusBarHeight:0
   },
 
   /**
@@ -9,6 +10,10 @@ Page({
    */
   onLoad() {
     this.initHeaderScroll();
+     const systemInfo = wx.getSystemInfoSync();
+  this.setData({
+    statusBarHeight: systemInfo.statusBarHeight + 4 // tu peux ajouter une petite marge en plus
+  });
   },
 
   onBackClick() {
