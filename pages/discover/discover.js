@@ -36,7 +36,8 @@ Page({
         author: 'Dr. Sow',
         date: 'Il y a 3 jours'
       }
-    ]
+    ],
+    statusBarHeight:0
   },
 
 
@@ -45,7 +46,12 @@ Page({
    * @returns {void}
    */
   onLoad() {
-  },
+  const systemInfo = wx.getSystemInfoSync();
+  this.setData({
+    statusBarHeight: systemInfo.statusBarHeight + 4 // tu peux ajouter une petite marge en plus
+  });
+},
+
 
     onSearch(e) {
     console.log("Texte recherché :", e.detail);
@@ -62,6 +68,9 @@ Page({
     console.log("Catégorie sélectionnée :", selected);
   },
   onBackClick() {
-    wx.navigateBack();
+    wx.navigateBack({
+      delta: 1  
+    })
   }
+
 });

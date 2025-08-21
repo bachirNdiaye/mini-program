@@ -6,5 +6,6 @@
     "article-card": "/components/article-card/article-card",
     "badge": "/components/badge/index",
     "article-list": "/components/article-list/article-list"
-  }
+  },
+  "navigationStyle": "custom"
 }

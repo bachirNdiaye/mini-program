@@ -1,12 +1,21 @@
 <discover-layout>
-  <view slot="action-buttons" class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view">
-    <action-buttons slot="action-buttons" type="discover" bind:back="onBackClick" />
+  <view
+    slot="action-buttons"
+    class="position-fixed top-0 left-0 right-0 w-100 action-buttons-view"
+    type="discover" 
+    bind:back="onBackClick"
+    statusBarHeight="{{statusBarHeight}}"
+  >
+    <action-buttons />
   </view>
+
+  <text class="subtitle">\n</text>
 
   <view slot="header" class="header-title">
     <text class="title">Discover</text> 
     <text class="subtitle">New from all around the world</text> 
   </view>
+
 
     <!-- Slot FILTRE -->
   <filter slot="filter" bind:search="onSearch" bind:filter="onFilterClick" /> 
