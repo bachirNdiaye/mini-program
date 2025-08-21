@@ -1,13 +1,15 @@
 <view class="article-list">
   <block wx:for="{{articles}}" wx:key="title">
-    <article-card
-      image="{{item.image}}"
-      category="{{item.category}}"
-      title="{{item.title}}"
-      avatar="{{item.avatar}}"
-      author="{{item.author}}"
-      date="{{item.date}}"
-    />
+    <view class="article-list-item">
+      <article-card
+        image="{{item.image}}"
+        category="{{item.category}}"
+        title="{{item.title}}"
+        avatar="{{item.avatar}}"
+        author="{{item.author}}"
+        date="{{item.date}}"
+      />
+      </view>
   </block>
 </view>
  <!-- Ombre superposée EN BAS -->

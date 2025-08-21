@@ -3,8 +3,8 @@
   flex-direction: row;
   border-radius: 12px;
   background-color: #fff;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 0 16px;
+  margin: 0 0;
 }
 
 .card-img {
