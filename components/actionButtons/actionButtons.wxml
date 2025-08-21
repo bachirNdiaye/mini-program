@@ -1,10 +1,10 @@
 <view class="d-flex justify-content-between top-0 left-0 right-0 w-100 z-1000" style="padding-top: {{statusBarHeight}}px;">
   <!-- Gauche -->
   <view class="left">
-    <view wx:if="{{showBack && showBookmark}}" class="circle-translucent" bindtap="onBack">
+    <view wx:if="{{showBack && showBookmark}}" class="circle" bindtap="onBack">
       <image src="/assets/images/menu/backarrowB.png" class="icon" style="color:white"></image>
     </view>
-    <view wx:if="{{showBack}}" class="circle-translucent" bindtap="onBack">
+    <view wx:if="{{showBack}}" class="circle" bindtap="onBack">
       <image src="/assets/images/menu/backarrow.png" class="icon" style="color:white"></image>
     </view>
     <view wx:if="{{showMenu}}" class="circle" bindtap="onMenu">
@@ -20,10 +20,10 @@
     <view wx:if="{{showNotif}}" class="circle" bindtap="onNotif">
       <image src="/assets/images/menu/bell.png" class="icon"></image>
     </view>
-    <view wx:if="{{showBookmark}}" class="circle-translucent" bindtap="onBookmark">
+    <view wx:if="{{showBookmark}}" class="circle" bindtap="onBookmark">
       <image src="/assets/images/menu/bookmarkB.png" class="icon"></image>
     </view>
-    <view wx:if="{{showOptions}}" class="circle-translucent" bindtap="onOptions">
+    <view wx:if="{{showOptions}}" class="circle" bindtap="onOptions">
       <image src="/assets/images/menu/optionB.png" class="icon"></image>
     </view>
   </view>
