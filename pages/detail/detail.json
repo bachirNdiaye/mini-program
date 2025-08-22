@@ -1,5 +1,4 @@
 {
-  "component": true,
   "usingComponents": {
     "details-layout": "/components/details-layout/index",
     "bottom-sheet": "/components/ui/bottom-sheet/index",
