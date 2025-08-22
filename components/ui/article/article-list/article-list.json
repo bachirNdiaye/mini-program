@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "article-card": "/components/article-card/article-card"
+    "article-card": "/components/ui/article/article-card/article-card"
   }
 }

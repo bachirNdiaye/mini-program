@@ -1,11 +1,11 @@
 {
   "usingComponents": {
-    "home-layout": "/components/homeLayout/homeLayout",
-    "action-buttons": "/components/actionButtons/actionButtons",
-    "custom-title": "/components/customTitle/customTitle",
-    "custom-swiper": "/components/custom-swiper/index",
-    "custom-tab-bar": "/components/ui/custom-tabbar/index",
-     "article-list": "/components/article-list/article-list"
+    "home-layout": "/components/ui/layouts/homeLayout/homeLayout",
+    "action-buttons": "/components/ui/actionButtons/actionButtons",
+    "custom-title": "/components/ui/custom/customTitle/customTitle",
+    "custom-swiper": "/components/ui/custom/custom-swiper/index",
+    "custom-tab-bar": "/components/ui/custom/custom-tabbar/index",
+     "article-list": "/components/ui/article/article-list/article-list"
   },
   "navigationStyle": "custom"
 }

@@ -1,11 +1,11 @@
 {
   "usingComponents": {
-    "discover-layout": "/components/discover-layout/index",
-    "action-buttons": "/components/actionButtons/actionButtons",
-    "filter": "/components/filter/index",
-    "article-card": "/components/article-card/article-card",
-    "badge": "/components/badge/index",
-    "article-list": "/components/article-list/article-list"
+    "discover-layout": "/components/ui/layouts/discover-layout/index",
+    "action-buttons": "/components/ui/actionButtons/actionButtons",
+    "filter": "/components/ui/filter/index",
+    "article-card": "/components/ui/article/article-card/article-card",
+    "badge": "/components/ui/badge/index",
+    "article-list": "/components/ui/article/article-list/article-list"
   },
   "navigationStyle": "custom"
 }
