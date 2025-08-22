@@ -1,10 +1,9 @@
 {
   "usingComponents": {
-    "details-layout": "/components/details-layout/index",
+    "details-layout": "/components/ui/layouts/details-layout/index",
     "bottom-sheet": "/components/ui/bottom-sheet/index",
-    "details-header": "/components/details-header/index",
-    "action-buttons": "/components/actionButtons/actionButtons"
+    "details-header": "/components/ui/headers/details-header/index",
+    "action-buttons": "/components/ui/actionButtons/actionButtons"
   },
   "navigationStyle": "custom"
-  
 }
