@@ -1,0 +1,19 @@
+ui/
+    - layouts/ (Issouf)
+        - home-layout
+        - details-layout
+        - discover-layout
+    - article/ (Malick)
+        - article-card
+        - article-list
+    - badge (Malick)
+    - custom/ (bachir)
+        - custom-swiper
+        - custom-title
+        - custom-tabbar
+    - headers/ (Bamba)
+        - details-header
+        - discover-header
+    - bottom-sheet (Lamine)
+    - filter (Lamine)
+    - action-buttons (Lamine)
